@@ -10,10 +10,6 @@ app.use(json());
 
 
 
-// app.all("/", (req , res) =>{
-//     res.status(200).json({status : true , message : "Server is Live"})
-// })
-
 
 app.get("/", (req , res) =>{
     res.status(200).json({status : true , message : "Server is Live"})
